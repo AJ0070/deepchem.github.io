@@ -23,7 +23,7 @@ function Footer() {
               DeepChem
             </p>
             <Link href="/#get-started">Get Started</Link>
-            <Link href="/about">About</Link>
+            <Link href="/about">About Us</Link>
             <Link href="/tutorials">Tutorials</Link>
             <Link
               href="https://github.com/deepchem/deepchem/tree/master/examples"
