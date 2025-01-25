@@ -74,7 +74,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <p className="text-center mt-8 lg:hidden text-sm">&copy; Deepchem 2025</p>
+      <p className="text-center mt-8 lg:hidden text-sm">&copy; Deepchem {currentYear}</p>
     </footer>
   );
 }
