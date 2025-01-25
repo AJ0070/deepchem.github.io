@@ -8,6 +8,7 @@ import Logo from "../Logo/Logo";
  * @return {JSX.Element} - The JSX representation of the Footer component
  */
 function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="px-[25px] 2xl:px-[300px] bg-dc-gray py-8 flex flex-col text-dc-light-gray mt-auto">
       <div className="flex flex-row justify-center lg:justify-between text-sm lg:text-base flex-1">
@@ -15,7 +16,7 @@ function Footer() {
           <Logo />
           <p className="mt-4">Maintained by the DeepChem core team</p>
           <p>Design by @kid-116</p>
-          <p>&copy; DeepChem 2025</p>
+          <p>&copy; DeepChem {currentYear}</p>
         </div>
         <div className="flex flex-row gap-8 lg:gap-20 items-start font-light">
           <div className="flex flex-col gap-1">
